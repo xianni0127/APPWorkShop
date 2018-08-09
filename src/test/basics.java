@@ -29,12 +29,24 @@ public class basics  extends base {
 //    public static void mian(String[] args) throws MalformedURLException {
 //        AndroidDriver<AndroidElement> driver=Capabilities();
 //        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//        driver.findElementByXPath("//android.widget.TextView[@text='Preference']").click();
+////        driver.findElementByXPath("//android.widget.TextView[@text='Preference']").click();
+////        driver.findElementByXPath("//android.widget.TextView[@text='Preference']").click();
+////        driver.findElementByXPath("//android.widget.TextView[@text='3. Preference dependencies']").click();
+////        driver.findElementById("android:id/checkbox").click();
 //    }
+
+    AndroidDriver<AndroidElement> driver;
+
+    @Before
+    public void setUp()  throws IOException {
+        driver = Capabilities();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+    }
+
     @Test
     public void test() throws MalformedURLException {
-        AndroidDriver<AndroidElement> driver = Capabilities();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
 
         driver.findElementByXPath("//android.widget.TextView[@text='Preference']").click();
         driver.findElementByXPath("//android.widget.TextView[@text='3. Preference dependencies']").click();
@@ -44,5 +56,13 @@ public class basics  extends base {
         driver.findElementsByClassName("android.widget.Button").get(1).click();
     }
 
+    @After
+    public void tearDown (){
+        if (driver != null)
+        {
+            driver.quit();
+
+        }
+    }
 
 }

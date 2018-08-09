@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.basics" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-09T01:37:37" hostname="CNnxian.local" time="19.424">
+<testsuite name="test.basics" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-09T05:30:54" hostname="CNnxian.local" time="21.448">
   <properties/>
-  <testcase name="test" classname="test.basics" time="19.424"/>
+  <testcase name="test" classname="test.basics" time="21.448"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
 log4j:WARN Please initialize the log4j system properly.
