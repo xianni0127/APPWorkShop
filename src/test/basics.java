@@ -15,6 +15,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
+import io.appium.java_client.AppiumDriver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -24,6 +25,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import Page.HomePage;
+import Page.PreferencePage;
 
 public class basics  extends base {
 //    public static void mian(String[] args) throws MalformedURLException {
@@ -35,7 +38,7 @@ public class basics  extends base {
 ////        driver.findElementById("android:id/checkbox").click();
 //    }
 
-    AndroidDriver<AndroidElement> driver;
+    AndroidDriver driver;
 
     @Before
     public void setUp()  throws IOException {
@@ -47,13 +50,19 @@ public class basics  extends base {
     @Test
     public void test() throws MalformedURLException {
 
+        HomePage homepage = new HomePage(driver);
+        homepage.clickPreference();
 
-        driver.findElementByXPath("//android.widget.TextView[@text='Preference']").click();
-        driver.findElementByXPath("//android.widget.TextView[@text='3. Preference dependencies']").click();
-        driver.findElementById("android:id/checkbox").click();
-        driver.findElementByXPath("(//android.widget.RelativeLayout)[2]").click();
-        driver.findElementByClassName("android.widget.EditText").sendKeys("hello");
-        driver.findElementsByClassName("android.widget.Button").get(1).click();
+        PreferencePage preferencepage =  new PreferencePage(driver);
+        preferencepage.clickDependencies();
+
+
+//        driver.findElementByXPath("//android.widget.TextView[@text='Preference']").click();
+//        driver.findElementByXPath("//android.widget.TextView[@text='3. Preference dependencies']").click();
+//        driver.findElementById("android:id/checkbox").click();
+//        driver.findElementByXPath("(//android.widget.RelativeLayout)[2]").click();
+//        driver.findElementByClassName("android.widget.EditText").sendKeys("hello");
+//        driver.findElementsByClassName("android.widget.Button").get(1).click();
     }
 
     @After
