@@ -28,25 +28,16 @@ import org.junit.Test;
 
 public class HomePage {
 
-//   public AndroidDriver _driver;
-
     public HomePage(AndroidDriver driver){
-//        _driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-//    public HomePage(AndroidDriver driver){
-//        this.driver = driver;
-////        System.out.println(driver);
-//        PageFactory.initElements(new AppiumFieldDecorator(driver, 30, TimeUnit.SECONDS), this);
-//    }
 
     @AndroidFindBy(xpath ="//android.widget.TextView[@text='Preference']")
     public AndroidElement preference;
 
     public void clickPreference() {
 
-//       _driver.findElementByXPath("//android.widget.TextView[@text='Preference']").click();
         preference.click();
 
     }
