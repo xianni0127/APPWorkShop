@@ -15,6 +15,11 @@ repositories {
     maven { url "https://cloud.experitest.com/repo" }
 }
 
+configurations {
+    cucumberRuntime {
+        extendsFrom testRuntime
+    }
+}
 
 sourceSets {
 
@@ -40,4 +45,17 @@ dependencies {
     compile 'info.cukes:cucumber-junit:1.1.2'
     compile group: 'io.appium', name: 'java-client', version: '4.1.2'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '2.23.0'
+}
+
+
+task cucumberPreference() {
+    dependsOn assemble, compileTestJava
+    doLast {
+        javaexec {
+            main = "cucumber.api.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+
+            args = ['-f', 'pretty', '--glue', 'stepdefine', 'src/resource/testPreference.feature','--tags', '@test']
+        }
+    }
 }

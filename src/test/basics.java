@@ -25,39 +25,40 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+
 import Page.HomePage;
 import Page.PreferencePage;
 
 public class basics  extends base {
 
-    AndroidDriver driver;
+    public static AndroidDriver driver;
 
-    @Before
-    public void setUp()  throws IOException {
-        driver = Capabilities();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//    @Before
+//    public static void setUp()  throws IOException {
+//        driver = Capabilities();
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//
+//    }
 
-    }
-
-    @Test
-    public void test() throws MalformedURLException {
-
-        HomePage homepage = new HomePage(driver);
-        homepage.clickPreference();
-
-        PreferencePage preferencepage =  new PreferencePage(driver);
-        preferencepage.clickDependencies();
+//    @Test
+//    public void test() throws MalformedURLException {
+//
+//        HomePage homepage = new HomePage(driver);
+//        homepage.clickPreference();
+//
+//        PreferencePage preferencepage =  new PreferencePage(driver);
+//        preferencepage.clickDependencies();
 
 
-    }
+//    }
 
-    @After
-    public void tearDown (){
-        if (driver != null)
-        {
-            driver.quit();
-
-        }
-    }
+//    @After
+//    public static void tearDown (){
+//        if (driver != null)
+//        {
+//            driver.quit();
+//
+//        }
+//    }
 
 }

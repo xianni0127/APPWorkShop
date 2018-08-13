@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.basics" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-10T00:42:27" hostname="CNnxian.local" time="13.269">
+<testsuite name="test.basics" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-10T00:44:38" hostname="CNnxian.local" time="12.739">
   <properties/>
-  <testcase name="test" classname="test.basics" time="13.269"/>
-  <system-out><![CDATA[[[AndroidDriver:  on LINUX (1beae9e0-af9a-4abc-814e-788f790f5beb)] -> xpath: //android.widget.TextView[@text='3. Preference dependencies']]
+  <testcase name="test" classname="test.basics" time="12.739"/>
+  <system-out><![CDATA[[[AndroidDriver:  on LINUX (6ad7cf7d-0f87-4a22-91dd-538bc69884c0)] -> xpath: //android.widget.TextView[@text='3. Preference dependencies']]
 ]]></system-out>
   <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
 log4j:WARN Please initialize the log4j system properly.
