@@ -20,19 +20,31 @@ import java.io.IOException;
 import java.io.File;
 import io.appium.java_client.remote.MobileCapabilityType;
 
-//public class Hook {
-//
-//    AndroidDriver driver;
-//
-//    @Before
-//    public void beforeScenario() throws IOException {
-//        basics.setUp();
-//    }
-//
-//
-//    @After
-//    public void aftereScenario() throws IOException {
-//        basics.tearDown();
-//    }
-//
-//}
+public class Hook {
+
+    public static AndroidDriver driver;
+
+    @Before
+    public void beforeScenario() throws MalformedURLException  {
+        File f= new File("src");
+        File fs=new File(f,"ApiDemos-debug.apk");
+        DesiredCapabilities cap= new DesiredCapabilities();
+        cap.setCapability(MobileCapabilityType.DEVICE_NAME,"8a2acc45");
+        cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
+        driver= new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+
+    }
+
+
+    @After
+    public void afterScenario()  {
+        if (driver != null)
+        {
+            driver.quit();
+
+        }
+
+    }
+}

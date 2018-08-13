@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75612d90-8b70-459f-90ac-edf39b76e789" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resource/testPreference.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stepdefine/Hook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stepdefine/stepPreference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Page/PreferencePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Page/PreferencePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/basics.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/test/basics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.basics.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/test.basics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.basics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-test.basics.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/PreferencePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/PreferencePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/basics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/stepdefine/stepPreference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepdefine/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stepdefine/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stepdefine/stepPreference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stepdefine/stepPreference.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -133,8 +119,11 @@
       <file leaf-file-name="basics.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/basics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="415">
+              <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,7 +131,7 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Page/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
+            <state relative-caret-position="301">
               <caret line="35" column="73" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -154,8 +143,8 @@
       <file leaf-file-name="stepPreference.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/stepdefine/stepPreference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+            <state relative-caret-position="259">
+              <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,8 +155,8 @@
       <file leaf-file-name="Hook.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stepdefine/Hook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="72">
+              <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,8 +179,8 @@
       <find>IOException</find>
       <find>MobileCapabilityType</find>
       <find>DesiredCapabilities</find>
-      <find>Before</find>
       <find>MalformedURLException</find>
+      <find>Before</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/../</dir>
@@ -1036,9 +1025,9 @@
         <option value="$PROJECT_DIR$/src/resource/testPreference.feature" />
         <option value="$PROJECT_DIR$/src/stepdefine/hook.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/stepdefine/Hook.java" />
         <option value="$PROJECT_DIR$/src/Page/PreferencePage.java" />
         <option value="$PROJECT_DIR$/src/test/basics.java" />
+        <option value="$PROJECT_DIR$/src/stepdefine/Hook.java" />
         <option value="$PROJECT_DIR$/src/stepdefine/stepPreference.java" />
       </list>
     </option>
@@ -1343,6 +1332,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1387,6 +1379,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1421,6 +1416,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1467,6 +1465,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1488,6 +1489,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1570,13 +1574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1584,10 +1581,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stepdefine/Hook.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="218">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/basics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1596,7 +1600,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Page/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
+        <state relative-caret-position="301">
           <caret line="35" column="73" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1604,17 +1608,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/basics.java">
+    <entry file="file://$PROJECT_DIR$/src/stepdefine/Hook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="72">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stepdefine/stepPreference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+        <state relative-caret-position="259">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

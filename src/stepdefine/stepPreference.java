@@ -31,33 +31,7 @@ import static org.junit.Assert.assertEquals;
 
 public class stepPreference {
 
-    public static AndroidDriver driver;
-
-
-    @Before
-    public void beforeScenario() throws MalformedURLException  {
-        File f= new File("src");
-        File fs=new File(f,"ApiDemos-debug.apk");
-        DesiredCapabilities cap= new DesiredCapabilities();
-        cap.setCapability(MobileCapabilityType.DEVICE_NAME,"8a2acc45");
-        cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
-        driver= new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-
-    }
-
-
-    @After
-    public void afterScenario()  {
-        if (driver != null)
-        {
-            driver.quit();
-
-        }
-
-    }
-
+    public  AndroidDriver driver=Hook.driver;
 
     @Given("^open the app and click Preference$")
     public void open_the_app_and_click_Preference() throws Throwable {
